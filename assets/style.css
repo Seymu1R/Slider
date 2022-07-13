@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+}
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+.next,
+.prew {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.next {
+  right: 20px;
+}
+.prew {
+  left: 20px;
+}
+.radio{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.radio input{
+    margin: 0 20px;
+    padding: 20px;
+    
+}
